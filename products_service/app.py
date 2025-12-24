@@ -22,5 +22,5 @@ def get_product(product_id):
     product = next((prod for prod in products if prod["id"] == product_id), None)
     return jsonify(product) if product else ('Not Found', 404)
 
-if __name__ == '__main__':
+if __name__ == '__main__
     app.run(port=5001, debug=True)
